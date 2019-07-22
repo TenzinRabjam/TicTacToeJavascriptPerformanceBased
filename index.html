@@ -1,0 +1,25 @@
+<html>
+<title>Tic Tac Toe</title>
+<head>
+<link rel="stylesheet" href="css/style.css" />
+   
+</head>
+<body onload="fnLoad()">
+        <div class="container">
+                <div>
+				
+                        <select id="grid">
+                        </select>
+                        <button name="NewGame" class="newGame" value="Start a New Game" onClick="fnNewGame()">Start a New Game</button>
+								<div class="winner">
+		                           <p id="output">Player one's turn.</p>
+		                        </div>
+                </div>
+                <div class="minContainer">
+                        <table class="row" id="game"></table>
+                </div>
+        </div>
+
+</body>
+<script  src="js/app.js"></script> 
+</html>
